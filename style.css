@@ -34,11 +34,19 @@ display:flex;
     cursor:pointer;
     flex : 0.5;
     transition: flex 0.7s ease-in;
+    border-radius: 20px;
+    margin :2%;
 }
-.images h3{
-    font-size: 0.5rem;
-    border: 2px solid red;
+.images h2{
+    font-size: 2rem;
+    text-align: center;
+    color :white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity :0;
 }
 .images.active{
-    flex:5;
+    flex:5;   
+}
+.images.active h2{
+    opacity : 1;
 }
