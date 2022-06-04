@@ -43,10 +43,12 @@ display:flex;
     color :white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity :0;
+    
 }
 .images.active{
-    flex:5;   
+    flex:8;   
 }
 .images.active h2{
     opacity : 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
