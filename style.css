@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    width : 100vw;
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden;*/
+} 
+.container{
+display:flex;
+}
+.panel-1{
+    background-image: url(./img/nature-1.png);
+}
+.panel-2{
+    background-image: url(./img/nature2.png);
+}
+.panel-3{
+    background-image: url(./img/nature3.png);
+}
+.panel-4{
+    background-image: url(./img/nature4.png);
+}
+.images{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height :80vh;
+    cursor:pointer;
+    flex : 0.5;
+    transition: flex 0.7s ease-in;
+}
+.images h3{
+    font-size: 0.5rem;
+    border: 2px solid red;
+}
+.images.active{
+    flex:5;
+}
